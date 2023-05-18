@@ -9,10 +9,6 @@ const assert = require("assert").strict;
   function decompressArr(inputArr) {
     // Писать код здесь
 
-    //Самый короткий вариант:
-    // return inputArr.flat(Infinity)
-
-    // Вариант с одним циклом for:
     const result = [...inputArr];
 
     for (let i = 0; i < result.length; i++) {
